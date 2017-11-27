@@ -18,11 +18,11 @@ function printBadges (names) {
 }
 
 function tailsNeverFails() {
-  let i = 0;
+  let count = 0;
   while (Math.random() >= 0.5){
-    i++;
+    count++;
   }
-  return `You got ${i} tails in a row!`;
+  return `You got ${count} tails in a row!`;
 }
 
 function tailsNeverFails() {
