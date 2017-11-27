@@ -33,3 +33,6 @@ function tailsNeverFails () {
 while (tailsNeverFails ()) {
   console.log (`You got ${[i]} tails in a row!`)
 }
+tailsNeverFails.forEach (function(element)) {
+  console.log(element);
+}
