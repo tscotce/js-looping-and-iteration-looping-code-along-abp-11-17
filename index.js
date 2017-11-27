@@ -33,5 +33,5 @@ function tailsNeverFails () {
 }
 tails.push (tailsNeverFails)
 while (tailsNeverFails ()) {
-  console.log (`You got ${[i]} tails in a row!`)
+  console.log (`You got ${tails} tails in a row!`)
 }
