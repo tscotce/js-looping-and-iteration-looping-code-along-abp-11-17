@@ -25,15 +25,6 @@ function tailsNeverFails() {
   return `You got ${counter++} tails in a row!`;
 }
 
-function tailsNeverFails() {
-  return Math.random () >=0.5
-  while(Math.random ()>=0.5) {
-    let count = 0;
-    count++;
-  }
-  return `You got ${count} tails in a row!`;
-}
-
 function tailsNeverFails () {
   return Math.random () <=1;
 }
