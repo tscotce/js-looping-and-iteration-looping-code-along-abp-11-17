@@ -25,7 +25,7 @@ while (maybeTrue ()) {
 }
 
 function tailsNeverFails () {
-  return Math.random () =>1;
+  return Math.random () <=1;
 }
 while (tailsNeverFails ()) {
   console.log (`You got ${[i.length]} tails in a row!`)
