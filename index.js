@@ -22,6 +22,7 @@ function tailsNeverFails() {
     let count = 0;
     count++;
   }
+  return `You got ${count} tails in a row!`
 }
 
 function tailsNeverFails () {
