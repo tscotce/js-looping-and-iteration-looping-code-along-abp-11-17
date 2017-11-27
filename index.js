@@ -28,8 +28,8 @@ function tailsNeverFails () {
 // }
 
 function tailsNeverFails () {
-  return Math.random () <1;
+  return Math.random () <=1;
 }
 while (tailsNeverFails ()) {
-  console.log (`You got 2 tails in a row!`)
+  console.log (`You got ${[i]} tails in a row!`)
 }
