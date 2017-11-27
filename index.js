@@ -27,11 +27,9 @@ function tailsNeverFails () {
 //   console.log ('And I ran... I ran so far away!');
 // }
 
-let tails = [0.7, 0.5];
 function tailsNeverFails () {
   return Math.random () <=1;
 }
-tails.push (tailsNeverFails)
 while (tailsNeverFails ()) {
-  console.log (`You got ${tails} tails in a row!`)
+  console.log (`You got ${[i]} tails in a row!`)
 }
