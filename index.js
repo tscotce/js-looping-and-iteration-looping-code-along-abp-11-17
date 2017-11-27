@@ -17,6 +17,13 @@ function printBadges (names) {
   return names;
 }
 
+function tailsNeverFails() {
+  while(Math.random()>=0.5){
+    let count = 0;
+    count++;
+  }
+}
+
 function tailsNeverFails () {
   let count=0;
   while (Math.random()>=0.5){
