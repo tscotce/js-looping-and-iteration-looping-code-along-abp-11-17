@@ -18,13 +18,25 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
-  return Math.random () >= 0.5;
+  let count=0;
+  while (Math.random()>=0.5){
+    count++;
+  }
+  return `You got ${count} tails in a row!`;
 }
 // while (tailsNeverFails ()) {
 //   console.log (`You got ${[i]} tails in a row!`)
 // }
 // while (maybeTrue ()) {
 //   console.log ('And I ran... I ran so far away!');
+// }
+
+// function tailsNeverFails1() {
+//   let count = 0; //initializing the counter... no tails yet
+//   while (Math.random() >= 0.5){
+//     count++;  //if tails increase counter by one
+//   }
+//   return `You got ${count} tails in a row!`;
 // }
 
 function tailsNeverFails () {
