@@ -20,15 +20,15 @@ function printBadges (names) {
 function tailsNeverFails () {
   return Math.random () >= 0.5;
 }
-while (tailsNeverFails ()) {
-  console.log (`You got ${[i]} tails in a row!`)
-}
+// while (tailsNeverFails ()) {
+//   console.log (`You got ${[i]} tails in a row!`)
+// }
 // while (maybeTrue ()) {
 //   console.log ('And I ran... I ran so far away!');
 // }
 
 function tailsNeverFails () {
-  return Math.random () <=1;
+  return 2;
 }
 while (tailsNeverFails ()) {
   console.log (`You got ${[i]} tails in a row!`)
